@@ -1,0 +1,27 @@
+POST http://localhost:6003/login/
+Content-Type: application/json
+
+{
+  "username": "teja",
+  "password": "teja@194"
+}
+###
+
+POST http://localhost:6003/
+Content-Type: application/json
+
+
+{
+    "userId": 22,
+    "id": 10,
+    "title": "css3",
+    "body":"react,html,css3"
+  }
+
+
+###
+
+GET http://localhost:6003/posts/
+
+###
+DELETE  http://localhost:6003/logout
